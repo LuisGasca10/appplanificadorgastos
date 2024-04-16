@@ -9,7 +9,7 @@ export default function ExpenseModal() {
 
   return (
     <>
-      <div className="fixed right-5 bottom-5 flex items-center justify-center">
+      <div className="fixed right-5 bottom-5 flex items-center justify-center z-10">
         <button
           type="button"
           onClick={() => {
